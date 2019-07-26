@@ -1,0 +1,42 @@
+nav ul li a{
+	color: black;
+}
+
+.slider h3,
+.slider h5,
+.clients h3 {
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+.portfolio h3 {
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+	font-family: 'Playfair Display SC', serif;
+}
+
+.parallax-container {
+	height: 20%;
+}
+
+.parallax img{
+	filter: grayscale(1);
+	opacity: 0.5 !important;
+}
+
+.clients img{
+	max-width: 50%;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+section {
+	padding: 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .parallax-container {
+        height: 20%;
+    }
+    .parallax img{
+		filter: grayscale(1);
+		opacity: 0.5 !important;
+	}
+}
